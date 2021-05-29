@@ -1,0 +1,45 @@
+FROM [0]: create 0 0 60 120 800
+TO [0]: Group with id = 0 had created
+_____________________________
+
+enter: SERVER: Group with id = 0 had created
+_____________________________
+
+FROM [0]: create 150 150 110 70 800
+TO [0]: Group with id = 1 had created
+_____________________________
+
+enter: SERVER: Group with id = 1 had created
+_____________________________
+
+FROM [0]: create -120 30 40 100 800
+TO [0]: Group with id = 2 had created
+_____________________________
+
+enter: SERVER: Group with id = 2 had created
+_____________________________
+
+FROM [0]: rotate 2 30
+TO [0]: Group with id = 2 had rotated 
+_____________________________
+
+enter: SERVER: Group with id = 2 had rotated
+_____________________________
+
+FROM [0]: mode
+TO [0]: changed
+_____________________________
+
+enter: SERVER: changed
+_____________________________
+
+FROM [0]: hierar 10
+TO [0]: The number of search : 0
+_____________________________
+
+FROM [0]: forel 10
+TO [0]: The number of search : 1
+_____________________________
+
+FROM [0]: em 8
+TO [0]: The number of search : 2

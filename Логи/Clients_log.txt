@@ -1,0 +1,55 @@
+Command ---> run /Users/Rob/evm/clog.txt
+
+create 0 0 60 120 800
+
+Group with id = 0 had created
+_____________________________
+
+create 150 150 110 70 800
+
+Group with id = 1 had created
+_____________________________
+
+create -120 30 40 100 800
+
+Group with id = 1 had created
+_____________________________
+
+rotate 0 45
+
+Group with id = 0 had rotated
+_____________________________
+
+Command ---> hierar 10
+
+The number of search : 0
+_____________________________
+
+Command ---> print_clusters 0
+
+Fill into 'Result/clusters.txt'
+_____________________________
+
+Command ---> forel 10
+
+The number of search : 1
+
+Fill into 'Result/circles.txt'
+_____________________________
+
+Command ---> print_clusters 2
+
+Fill into 'Result/clusters.txt'
+_____________________________
+
+Command ---> EM 8
+
+The number of search : 2
+_____________________________
+
+Command ---> print_clusters 3
+
+Fill into 'Result/clusters.txt'
+_____________________________
+
+Command ---> exit
