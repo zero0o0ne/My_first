@@ -1,0 +1,30 @@
+INIT
+GC double double double double int
+EXIT
+INFO
+HELP
+HISTOGRAM int
+HISTOGRAM int int
+BUFFER
+BUFFER int
+ROTATION double double double
+HOMOTETIA double double double
+SHIFT double double
+SET
+MATRIX
+BINARY double
+WAVE
+WAVE int
+DBSCAN int
+DBWAVE
+INFO_clusters
+INFO_marks
+STREE_clusters
+STREE_field
+TREE_histogram int
+K_means int
+EM_algorythm int
+K_cores int int
+FOREL double
+IERARH int
+TRIANG
