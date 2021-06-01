@@ -1,3 +1,4 @@
+﻿//Programma Semenova Nikity iz 211 gruppy
 #pragma once
 #include <iostream>
 #include <string>
