@@ -1,0 +1,47 @@
+Dlya raboty programmy neobhodimo:
+- Sozdat object classa Server
+- Sozdat oject classa Client s argumentom konstructora Server
+- Ispolzovat programmu kak ranshe
+
+
+INIT                    //  Sozdaniye polya i buffera v klasse Controller       
+GC mX mY sX sY Np       //  Generaciya oblaka s matematicheskim ozhidaniem mX i mY 
+                            i dispersiyey sX i sY po x i y, s kolichestvom tochek Np    
+EXIT                    //  Zavershenie programmy     
+INFO                    //  Vyvod informacii obo vseh oblakah polya v 
+                            sootvetstvuyushie faily      
+HELP                    //  Vyvod dannogo faila na konsol       
+HISTOGRAM K             //  Postrienie gistogramm vsego polya po x i y 
+                            s parametrom razbieniya K              
+HISTOGRAM K Nc          //  Postrienie gistogramm oblaka Nc po x i y 
+                            s parametrom razbieniya K              
+BUFFER                  //  Vzyatie v buffer vsego polya             
+BUFFER Nc               //  Vzyatie v buffer oblaka Nc          
+ROTATION x0 y0 fi       //  Povorot buffera otnositelno x0 y0 na ugol fi            
+HOMOTETIA x0 y0 fi      //  Gomotetia buffera otnositelno x0 y0 s parametrom fi             
+SHIFT x0 y0             //  Sdvig buffera na x0 y0         
+SET                     //  Sozdanie na pole novogo oblaka, kopirovanie v nego buffera
+                            i ochistka buffera 
+MATRIX                  //  Postroenie matricy rasstoyaniy vsego polya, perevod polya
+                            v rezhim analiza 
+BINARY r                //  Sozdanie novogo 'Find_clusters' i postroenie v nem
+                            binarnoy matricy s parametrom  r 
+WAVE                    //  Volnovoy algoritm vsego polya po posledney binarnoy matrice  
+WAVE Nb                 //  Volnovoy algoritm vsego polya po matrice Nb    
+DBSCAN K                //  Prisvoenie vsem tochkam polya metok, ispolzuya gustotu K  
+DBWAVE			//  Volnovoy algoritm vsego polya po posledney binarnoy matrice
+                            s podzhogom v kornevih tochkah		
+INFO_clusters		//  Vyvod vseh klasterov polya v sootvetstvuyushie faily	
+INFO_marks		//  Vyvod vseh tochek polya s ih DBSCAN-metkami (core, per, dust)	
+STREE clusters/field	//  Postroenie ostovnogo dereva po kazhdomy klasteru polya/po vsemu
+                            polyu s vyvodom v sootvetstvuyushie faily
+K_means K		//  Razbienie polya na klastery algorytmom 'k srednih' 
+                            s parametrom K	
+EM_algorythm K		//  Razbienie polya na klastery algorytmom 'EM means' 
+                            s parametrom K
+K_cores K, p		//  Razbienie polya na klastery algorytmom 'k yader' 
+                            s parametrami K, p, gde p - kolichestvo tochek v yadre	
+FOREL R                 //  Razbienie polya na klastery algorytmom 'forel' 
+                            s parametrom R, otvechayushim za razmer klasterov
+IERARH K                //  Razbienie polya na K klasterov ierarhicheskim algorytmom
+
