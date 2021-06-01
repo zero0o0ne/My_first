@@ -1,4 +1,5 @@
-﻿#include "Lib.h"
+﻿//Programma Semenova Nikity iz 211 gruppy
+#include "Lib.h"
 
 using namespace std;
 
