@@ -1,3 +1,4 @@
+ï»¿//Programma Semenova Nikity iz 211 gruppy
 #include "Lib.h"
 
 using namespace std;
@@ -216,7 +217,7 @@ void interface::Log_access_denied(string command)
 {
     lid++;
     ofstream out("C:/Users/nikit/source/repos/ConsoleApplication1/log#" + to_string(lid) + ".txt");
-    out << "Ïîïûòêà èçìåíèòü ïîëå â ñîñòîÿíèè 0: îøèáêà äîñòóïà" << endl << "Êîìàíäà: " << command;
+    out << "ÃÃ®Ã¯Ã»Ã²ÃªÃ  Ã¨Ã§Ã¬Ã¥Ã­Ã¨Ã²Ã¼ Ã¯Ã®Ã«Ã¥ Ã¢ Ã±Ã®Ã±Ã²Ã®Ã¿Ã­Ã¨Ã¨ 0: Ã®Ã¸Ã¨Ã¡ÃªÃ  Ã¤Ã®Ã±Ã²Ã³Ã¯Ã " << endl << "ÃŠÃ®Ã¬Ã Ã­Ã¤Ã : " << command;
     out.close();
 }
 
@@ -224,7 +225,7 @@ void interface::Log_wrong_command(string command)
 {
     lid++;
     ofstream out("C:/Users/nikit/source/repos/ConsoleApplication1/log#" + to_string(lid) + ".txt");
-    out << "Ââåäåíà íåïðàâèëüíàÿ êîìàíäà: " << command;
+    out << "Ã‚Ã¢Ã¥Ã¤Ã¥Ã­Ã  Ã­Ã¥Ã¯Ã°Ã Ã¢Ã¨Ã«Ã¼Ã­Ã Ã¿ ÃªÃ®Ã¬Ã Ã­Ã¤Ã : " << command;
     out.close();
 }
 
@@ -232,7 +233,7 @@ void interface::Log_wrong_means(string command)
 {
     lid++;
     ofstream out("C:/Users/nikit/source/repos/ConsoleApplication1/log#" + to_string(lid) + ".txt");
-    out << "Ââåäåíû íåïðàâèëüíûå ïàðàìåòðû ãåíåðàöèè: " << command;
+    out << "Ã‚Ã¢Ã¥Ã¤Ã¥Ã­Ã» Ã­Ã¥Ã¯Ã°Ã Ã¢Ã¨Ã«Ã¼Ã­Ã»Ã¥ Ã¯Ã Ã°Ã Ã¬Ã¥Ã²Ã°Ã» Ã£Ã¥Ã­Ã¥Ã°Ã Ã¶Ã¨Ã¨: " << command;
     out.close();
 }
 
@@ -260,7 +261,7 @@ void controller::HELP()
 {
     ifstream in("C:/Users/nikit/source/repos/ConsoleApplication1/ConsoleApplication1/help.txt");
     string temp;
-    cout << endl << "Ñïèñîê âîçìîæíûõ êîìàíä:" << endl;
+    cout << endl << "Ã‘Ã¯Ã¨Ã±Ã®Ãª Ã¢Ã®Ã§Ã¬Ã®Ã¦Ã­Ã»Ãµ ÃªÃ®Ã¬Ã Ã­Ã¤:" << endl;
     while (!in.eof())
     {
         getline (in, temp);
