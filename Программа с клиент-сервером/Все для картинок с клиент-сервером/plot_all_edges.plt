@@ -1,0 +1,1 @@
+plot "C:/Users/nikit/source/repos/ConsoleApplication1/all_tree.txt" with lines
