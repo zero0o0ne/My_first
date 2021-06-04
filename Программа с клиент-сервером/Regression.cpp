@@ -1,4 +1,5 @@
-//211-Pushkareva-Anna-2021
+
+//Programma Semenova Nikity iz 211 gruppy
 #include "Regression.h"
 #define NNNN 3
 
@@ -28,7 +29,7 @@ int Regression::Start(Point& P, vector <Point>& All_Point)
 		}
 	}
 	vector <Point> All_Point_Cluster = Clus.Get_Cluster(I).GetC();
-	Triang_Delon Triang = A_T.Start(All_Point_Cluster);// Дописать класс
+	Triang_Delon Triang = A_T.Start(All_Point_Cluster);// Г„Г®ГЇГЁГ±Г ГІГј ГЄГ«Г Г±Г±
 
 	for (int i = 0; i < Triang.Get_N(); i++)
 	{
@@ -89,7 +90,7 @@ double Regression::Evaluation(vector <Point>& All_Point)
 
 	Triang_Delon Triang = A_T.Start(All_Point);
 
-	for (int n = 0; n<Triang.Get_N(); n++) // Можно корректоровать число проходов
+	for (int n = 0; n<Triang.Get_N(); n++) // ГЊГ®Г¦Г­Г® ГЄГ®Г°Г°ГҐГЄГІГ®Г°Г®ГўГ ГІГј Г·ГЁГ±Г«Г® ГЇГ°Г®ГµГ®Г¤Г®Гў
 	{
 		Point P(Triang.Get_Triangle(n).Get_P(0));
 		double S, v;
