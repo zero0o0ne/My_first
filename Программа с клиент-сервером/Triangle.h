@@ -1,4 +1,4 @@
-//211-Pushkareva-Anna-2021
+//Semenov Nikita 211
 #pragma once
 #include "Point.h"
 #include "Segment.h"
