@@ -1,4 +1,5 @@
-//211-Pushkareva-Anna-2021
+
+//Programma Semenova Nikity iz 211 gruppy
 #include "Algoritm_DBSCAN.h"
 
 Find_Claster Algoritm_DBSCAN::Start(int k, int N, vector <Binary_Matrix>& B, vector <Point>& All_Point)
