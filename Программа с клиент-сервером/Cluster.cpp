@@ -1,3 +1,4 @@
-//211-Pushkareva-Anna-2021
+
+//Programma Semenova Nikity iz 211 gruppy
 #include "Cluster.h"
 
