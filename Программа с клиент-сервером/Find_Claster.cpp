@@ -1,4 +1,5 @@
-//211-Pushkareva-Anna-2021
+
+//Programma Semenova Nikity iz 211 gruppy
 #include "Find_Claster.h"
 
 void Find_Claster::SetAlfa(double p)
