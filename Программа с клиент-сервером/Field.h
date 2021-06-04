@@ -1,4 +1,5 @@
-//211-Pushkareva-Anna-2021
+
+//Programma Semenova Nikity iz 211 gruppy
 #pragma once
 #include "Point.h"
 #include "Triang_Delon.h"
@@ -87,8 +88,8 @@ public:
 	double d(Point& A, Point& B);
 	void Find_Factor();
 	int Triangulation();
-	Point IntersectL(double A, double B, double C, double A1, double B1, double C1);//Работает на пересекающихся прямых иначе возвращает значения невертные
-	Point Intersection_Parabol(Point Focus, Point Focus_R, Point Focus_L, double d);// для невырожденных парабол, выводит отрезок пересечнния центральной с правой и левой параболой
+	Point IntersectL(double A, double B, double C, double A1, double B1, double C1);//ГђГ ГЎГ®ГІГ ГҐГІ Г­Г  ГЇГҐГ°ГҐГ±ГҐГЄГ ГѕГ№ГЁГµГ±Гї ГЇГ°ГїГ¬Г»Гµ ГЁГ­Г Г·ГҐ ГўГ®Г§ГўГ°Г Г№Г ГҐГІ Г§Г­Г Г·ГҐГ­ГЁГї Г­ГҐГўГҐГ°ГІГ­Г»ГҐ
+	Point Intersection_Parabol(Point Focus, Point Focus_R, Point Focus_L, double d);// Г¤Г«Гї Г­ГҐГўГ»Г°Г®Г¦Г¤ГҐГ­Г­Г»Гµ ГЇГ Г°Г ГЎГ®Г«, ГўГ»ГўГ®Г¤ГЁГІ Г®ГІГ°ГҐГ§Г®ГЄ ГЇГҐГ°ГҐГ±ГҐГ·Г­Г­ГЁГї Г¶ГҐГ­ГІГ°Г Г«ГјГ­Г®Г© Г± ГЇГ°Г ГўГ®Г© ГЁ Г«ГҐГўГ®Г© ГЇГ Г°Г ГЎГ®Г«Г®Г©
 };
 static int Namber_point = 1;
 
