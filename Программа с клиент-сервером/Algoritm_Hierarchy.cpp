@@ -1,4 +1,5 @@
-//211-Pushkareva-Anna-2021
+
+//Programma Semenova Nikity iz 211 gruppy
 #include "Algoritm_Hierarchy.h"
 
 double Algoritm_Hierarchy::d(H_Point& A, H_Point& B)
