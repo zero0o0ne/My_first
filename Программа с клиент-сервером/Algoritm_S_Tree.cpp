@@ -1,4 +1,5 @@
-//211-Pushkareva-Anna-2021
+
+//Programma Semenova Nikity iz 211 gruppy
 #include "Algoritm_S_Tree.h"
 
 void Algoritm_S_Tree::Start(vector <int>& STree, vector <Point>& All_Point, Dist_Matrix& D)
