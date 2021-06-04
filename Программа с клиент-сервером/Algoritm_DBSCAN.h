@@ -1,4 +1,5 @@
-//211-Pushkareva-Anna-2021
+
+//Programma Semenova Nikity iz 211 gruppy
 #pragma once
 #include "Find_Claster.h"
 #include "Binary_Matrix.h"
