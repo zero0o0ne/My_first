@@ -1,4 +1,5 @@
-//211-Pushkareva-Anna-2021
+
+//Programma Semenova Nikity iz 211 gruppy
 #include "Algoritm_EM.h"
 
 using namespace std;
@@ -85,7 +86,7 @@ Find_Claster Algoritm_EM::Start(int k, vector <Point>& All_Point)
     int Nomer;
     while (Stop == 1)
     {
-        //E - шаг
+        //E - ГёГ ГЈ
         Stop = 0;
         for (int i = 0; i < k; i++)
         {
@@ -239,7 +240,7 @@ Find_Claster Algoritm_EM::Start(int k, vector <Point>& All_Point)
 
         n++;
         Nomer = n - 1;
-        // M-шаг
+        // M-ГёГ ГЈ
 
         vector <double> W_1 = W;
         vector <double> Mu_1 = Mu;
