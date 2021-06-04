@@ -1,0 +1,1 @@
+plot "C:/Users/nikit/source/repos/ConsoleApplication1/dust.txt", "C:/Users/nikit/source/repos/ConsoleApplication1/per.txt", "C:/Users/nikit/source/repos/ConsoleApplication1/core.txt"
