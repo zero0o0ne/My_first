@@ -1,4 +1,4 @@
-//211-Pushkareva-Anna-2021
+//Semenov Nikita 211
 #pragma once
 #include <stdio.h>
 #include <stdlib.h>
@@ -18,7 +18,7 @@ class Segment
 private:
     Point A;
     Point B;
-    int S; // состояние равно 1- достроен 0-недостроен
+    int S; // Г±Г®Г±ГІГ®ГїГ­ГЁГҐ Г°Г ГўГ­Г® 1- Г¤Г®Г±ГІГ°Г®ГҐГ­ 0-Г­ГҐГ¤Г®Г±ГІГ°Г®ГҐГ­
 public:
     Segment(const Segment& p) = default;
     Segment() = default;
