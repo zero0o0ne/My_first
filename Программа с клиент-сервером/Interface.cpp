@@ -1,4 +1,5 @@
-//211-Pushkareva-Anna-2021
+
+//Programma Semenova Nikity iz 211 gruppy
 #include "Interface.h"
 
 #pragma warning(disable : 4996)
