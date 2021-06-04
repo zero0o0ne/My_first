@@ -1,4 +1,4 @@
-//211-Pushkareva-Anna-2021
+//Semenov Nikita 211
 #include "Triangle.h"
 
 
