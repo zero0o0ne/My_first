@@ -1,4 +1,5 @@
-//211-Pushkareva-Anna-2021
+
+//Programma Semenova Nikity iz 211 gruppy
 #include "Algoritm_K_means.h"
 
 Find_Claster Algoritm_K_means::Start(int k, vector <Point>& All_Point)
